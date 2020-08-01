@@ -25,7 +25,7 @@ Vue.use(VueRouter)
     component: () => import('../views/Safety.vue')
   },
   {
-    path: '/transport',
+    path: '/transit',
     name: 'Transit',
     component: () => import('../views/Transit.vue')
   },
