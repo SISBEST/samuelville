@@ -3,7 +3,6 @@
     <div id="nav">
       <h1>SamuelVille</h1>
       <router-link to="/">Home</router-link> |
-      <router-link to="/guide">Guide</router-link> |
       <router-link to="/resources">Resources</router-link> |
       <router-link to="/safety">Safety</router-link> |
       <router-link to="/transit">Transit</router-link> |
@@ -11,7 +10,10 @@
       <router-link to="/taxes">Taxes</router-link> |
       <router-link to="/health">Health</router-link> |
       <router-link to="/education">Education</router-link> |
-      <router-link to="/laws">Laws</router-link>
+      <a href="https://laws.samuelville.tk">Laws</a> |
+      <a href="https://guide.samuelville.tk">Guide</a> |
+      <a href="https://help.samuelville.tk">Laws</a> |
+      <a href="https://blog.samuelville.tk">Blog</a>
     </div>
     <router-view/>
   </div>

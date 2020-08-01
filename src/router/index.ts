@@ -10,11 +10,6 @@ Vue.use(VueRouter)
     component: () => import('../views/Home.vue')
   },
   {
-    path: '/guide',
-    name: 'Guide',
-    component: () => import('../views/Guide.vue')
-  },
-  {
     path: '/resources',
     name: 'Resources',
     component: () => import('../views/Resources.vue')
