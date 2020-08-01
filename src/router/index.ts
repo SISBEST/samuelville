@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -8,15 +7,52 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import('../views/Home.vue')
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/guide',
+    name: 'Guide',
+    component: () => import('../views/Guide.vue')
+  },
+  {
+    path: '/resources',
+    name: 'Resources',
+    component: () => import('../views/Resources.vue')
+  },
+  {
+    path: '/safety',
+    name: 'Public Safety',
+    component: () => import('../views/Safety.vue')
+  },
+  {
+    path: '/transport',
+    name: 'Transit',
+    component: () => import('../views/Transit.vue')
+  },
+  {
+    path: '/voting',
+    name: 'Voting',
+    component: () => import('../views/Voting.vue')
+  },
+  {
+    path: '/taxes',
+    name: 'Taxes',
+    component: () => import('../views/Taxes.vue')
+  },
+  {
+    path: '/health',
+    name: 'Health',
+    component: () => import('../views/Health.vue')
+  },
+  {
+    path: '/education',
+    name: 'Education',
+    component: () => import('../views/Education.vue')
+  },
+  {
+    path: '/laws',
+    name: 'Laws',
+    component: () => import('../views/Laws.vue')
   }
 ]
 
