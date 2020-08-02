@@ -15,7 +15,7 @@
       <a href="https://portal.samuelville.tk">Portal</a> |
       <a href="https://guide.samuelville.tk">Guide</a> |
       <a href="https://help.samuelville.tk">Help</a> |
-      <a href="https://blog.samuelville.tk">Blog</a>
+      <a href="https://newscenter.samuelville.tk">Newscenter</a>
     </div>
     <router-view/>
   </div>
