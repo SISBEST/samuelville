@@ -10,9 +10,9 @@ Vue.use(VueRouter)
     component: () => import('../views/Home.vue')
   },
   {
-    path: '/resources',
-    name: 'Resources',
-    component: () => import('../views/Resources.vue')
+    path: '/blm',
+    name: 'Black Lives Matter',
+    component: () => import('../views/BLM.vue')
   },
   {
     path: '/safety',
@@ -43,11 +43,6 @@ Vue.use(VueRouter)
     path: '/education',
     name: 'Education',
     component: () => import('../views/Education.vue')
-  },
-  {
-    path: '/laws',
-    name: 'Laws',
-    component: () => import('../views/Laws.vue')
   }
 ]
 
