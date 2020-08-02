@@ -10,7 +10,9 @@
       <router-link to="/taxes">Taxes</router-link> |
       <router-link to="/health">Health</router-link> |
       <router-link to="/education">Education</router-link> |
+      <router-link to="/data">Data</router-link> |
       <a href="https://laws.samuelville.tk">Laws</a> |
+      <a href="https://portal.samuelville.tk">Portal</a> |
       <a href="https://guide.samuelville.tk">Guide</a> |
       <a href="https://help.samuelville.tk">Help</a> |
       <a href="https://blog.samuelville.tk">Blog</a>
