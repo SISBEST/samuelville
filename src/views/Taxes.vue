@@ -2,7 +2,7 @@
     <div class="page">
         <h2>Taxes</h2>
         <h3>How to pay</h3>
-        <p>Every month, you will recieve a tax card. Attach money and send back.</p>
+        <p>Every month, you will receive a tax card. Attach money and send back.</p>
         <h3>Calculator</h3>
         <input type="text" id="salary" placeholder="Hourly Salary" />
         <button v-on:click="tax()">Calculate</button>

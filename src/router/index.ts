@@ -10,9 +10,9 @@ Vue.use(VueRouter)
     component: () => import('../views/Home.vue')
   },
   {
-    path: '/blm',
-    name: 'Black Lives Matter',
-    component: () => import('../views/BLM.vue')
+    path: '/equity',
+    name: 'Equity for All',
+    component: () => import('../views/Equity.vue')
   },
   {
     path: '/data',

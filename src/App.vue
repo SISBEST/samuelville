@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/blm" style="background-color:black; color:white; padding: 10px;">#BlackLivesMatter</router-link>
+      <router-link to="/equity" style="background-color:black; color:white; padding: 10px;">Committed to Equity</router-link>
       <h1>SamuelVille</h1>
       <router-link to="/">Home</router-link> |
       <router-link to="/safety">Safety</router-link> |
