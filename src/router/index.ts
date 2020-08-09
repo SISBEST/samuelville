@@ -15,11 +15,6 @@ Vue.use(VueRouter)
     component: () => import('../views/Equity.vue')
   },
   {
-    path: '/data',
-    name: 'Data',
-    component: () => import('../views/Data.vue')
-  },
-  {
     path: '/safety',
     name: 'Public Safety',
     component: () => import('../views/Safety.vue')
