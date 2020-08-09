@@ -10,7 +10,7 @@
       <router-link to="/taxes">Taxes</router-link> |
       <router-link to="/health">Health</router-link> |
       <router-link to="/education">Education</router-link> |
-      <router-link to="/data">Data</router-link> |
+      <router-link to="https://api.samuelsharp.com">Developer</router-link> |
       <a href="https://laws.samuelville.tk">Laws</a> |
       <a href="https://explore.samuelville.tk">Explore</a> |
       <a href="https://portal.samuelville.tk">Portal</a> |
