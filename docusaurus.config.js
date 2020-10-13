@@ -17,7 +17,12 @@ module.exports = {
       items: [
         {
           href: 'https://transit.samuelville.tk',
-          label: 'SV Transit',
+          label: 'Transit',
+          position: 'left'
+        },
+        {
+          to: 'lrb',
+          label: 'LRB',
           position: 'left'
         },
         {
@@ -27,8 +32,13 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://explore.samuelville.tk',
-          label: 'Explore',
+          to: 'health',
+          label: 'Health',
+          position: 'left'
+        },
+        {
+          to: 'education',
+          label: 'Education',
           position: 'left'
         },
         {
@@ -47,13 +57,14 @@ module.exports = {
           position: 'left'
         },
         {
-          to: 'health',
-          label: 'Health',
+          href: 'https://explore.samuelville.tk',
+          label: 'Explore',
           position: 'left'
         },
         {
-          to: 'education',
-          label: 'Education',
+          to: 'blog',
+          activeBasePath: 'blog',
+          label: 'Press',
           position: 'left'
         },
         {
@@ -61,27 +72,11 @@ module.exports = {
           label: 'Developer',
           position: 'left'
         },
-        {
-          to: 'blog',
-          label: 'Newscenter & Blog',
-          position: 'left'
-        }
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} SamuelVille.`,
+      style: 'light',
+      copyright: `Copyright © ${new Date().getFullYear()} The SamuelVille Government. SV Copyright #00A1DEF9461C`,
     },
   },
   presets: [

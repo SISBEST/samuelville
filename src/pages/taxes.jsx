@@ -10,6 +10,7 @@ function Taxes() {
                     justifyContent: 'center',
                     alignItems: 'center',
                     fontSize: '20px',
+                    padding: '10px'
                 }}>
                 <p>
                     <h2>Taxes</h2>
