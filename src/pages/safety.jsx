@@ -6,11 +6,8 @@ function Services() {
     <Layout title="Safety">
       <div
         style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
           fontSize: '20px',
-          padding: '10px'
+          padding: '40px'
         }}>
         <div>
           <h1>Public Safety</h1>

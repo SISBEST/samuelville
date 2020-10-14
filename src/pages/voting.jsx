@@ -6,17 +6,14 @@ function Services() {
         <Layout title="Voting">
             <div
                 style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
                     fontSize: '20px',
-                    padding: '10px'
+                    padding: '40px'
                 }}>
                 <p>
-                    <h2>Voting</h2>
-                    <h3>How to Vote</h3>
-                    <p>Just show up, show your citizen ID, and select your canidate.</p>
-                    <h3>Local Elections:</h3>
+                    <h1>Voting</h1>
+                    <h2>How to Vote</h2>
+                    <p>Just open your terminal and use the <code>sv vote</code> command.</p>
+                    <h2>Local Elections:</h2>
                     <ul>
                         <li>Legal Review Board: August 5, 2020</li>
                         <ul>

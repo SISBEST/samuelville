@@ -6,11 +6,8 @@ function Education() {
     <Layout title="Education">
       <div
         style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
           fontSize: '20px',
-          padding: '10px'
+          padding: '40px'
         }}>
         <div>
           <h1>Education</h1>
@@ -24,8 +21,7 @@ function Education() {
           <hr />
           <h2>Grades</h2>
           <h3>Little School</h3>
-          <p>Students in grades K, 1, 2, and 3 attend Little School.</p>
-          <p>All Little School instruction is in-person.</p>
+          <p>Students in grades K, 1, 2, and 3 attend Little School. All Little School instruction is in-person.</p>
           <p>There are 3 Little School locations:</p>
           <ul>
             <li>SamuelVille</li>
@@ -33,12 +29,9 @@ function Education() {
             <li>Middletown/Flefingbridge</li>
           </ul>
           <h3>Big School</h3>
-          <p>Students in grades 4, 5, 6, 7, and 8 attend Big School.</p>
-          <p>All Big School instruction is virtual.</p>
-          <p>Students can watch lessons and complete work at anytime,<br />but have daily scheduled live Q&amp;As with each teacher.</p>
+          <p>Students in grades 4, 5, 6, 7, and 8 attend Big School. All Big School instruction is virtual. Students can watch lessons and complete work at anytime, but have daily scheduled live Q&amp;As with each teacher.</p>
           <h3>Big Big School</h3>
-          <p>Students in grades 9, 10, 11, 12, and 13 attend Big Big School.</p>
-          <p>All work is completed virtually, but some lectures are in person.</p>
+          <p>Students in grades 9, 10, 11, 12, and 13 attend Big Big School. All work is completed virtually, but some lectures are in person.</p>
           <hr />
           <h2>Curriculum</h2>
           <h3>Little School</h3>
